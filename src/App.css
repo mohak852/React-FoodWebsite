@@ -17,13 +17,20 @@
   align-self: center;
   margin-left: 250px;
   margin-top: 30px;
+  border-radius: 5px;
 }
 
 .search-button{
   background-color: rgb(167, 167, 245);
   border: none;
+  display: inline-block;
+  visibility: visible;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 5px;
   height: 40px;
+  width: 90px;
   padding: 10px 10px;
+  font-size: 18px;
 }
 
 .recipes{
